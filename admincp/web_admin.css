@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+
+.header ul li{
+	list-style-type: none;
+	margin-top: 15px;
+	display: inline-block;
+	border-left: 1px solid #000;
+	padding: 0px 8px;
+	padding-right: 3px;
+}
+
+.header ul li a{
+	color: blue;
+}
+
+.header ul li a:hover{
+	color: red;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.menu{
+	height: 50px;
+	margin: 10px 0px;
+	border: 0.5px solid #666;
+	background: #252577;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.menu > ul{
+	height: 50px;
+	list-style: none;
+	margin-left: 70px;
+	margin-right: 100px;
+}
+
+.menu ul li{
+	float: left;
+	width: 170px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;	
+}
+
+.menu ul li a{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+}
+
+.menu a:hover{
+	background: #FFF;
+	color: blue;
+	font-style: italic;
+}
+
+#submenu{
+	display: none;
+	background: #FFF;
+	position: absolute;
+	z-index: 90;	
+}
+
+#submenu li{
+	list-style-type: none;
+}
+
+.menu li:hover #submenu{
+	display: block;
+	border: 1px solid #252577;
+	border-radius: 5px;
+}
+
+#submenu a{
+	color: blue;
+	font-size: 16px;
+}
+
+table{
+	text-align: center;
+}
+
+table td{
+	padding: 10px;
+}
+
+.footer{
+	margin-top: 10px;
+	margin-left: 75px;
+	height: 60px;
+}
+
+.footer ul li{
+	list-style-type: none;
+}
+
+a{
+	color: blue;
+}
+
+a:hover{
+	text-decoration: none;
+	color: red;
+	font-style: italic;
+}
