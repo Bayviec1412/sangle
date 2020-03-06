@@ -34,7 +34,7 @@
 					<ul>
 						<li><a href="#">Mua hàng: <span style="font-weight: bold;">1900.54.54.54</span></a></li>
 						<li><a href="#">CSKH: <span style="font-weight: bold;">1900.54.54.55</span></a></li>
-						<li><a href="#">Bảo hành: <span style="font-weight: bold;">(04)32.323.345</span></a></li>
+						<li><a href="#">Bảo hành: <span style="font-weight: bold;">(04)32.323.346</span></a></li>
 					</ul>
 				</div>
 			</div>
